@@ -25,6 +25,16 @@ const cv = {
       ]
     },
     {
+      puesto: "Cuidadora de comedor (prácticas)",
+      lugar: "CEIP Federico Romero",
+      fecha: "Enero 2024",
+      tareas: [
+        "Organización del comedor escolar",
+        "Higiene y salud",
+        "Actividades socio-educativas"
+      ]
+    },
+    {
       puesto: "Educadora Infantil (prácticas profesionales)",
       lugar: "Escuela infantil Hermanas Barrera",
       fecha: "Marzo 2022 - Junio 2022",
@@ -33,16 +43,6 @@ const cv = {
         "Actividades: teatros, juegos, cuentos",
         "Circuitos de Psicomotricidad",
         "Realización de asambleas"
-      ]
-    },
-    {
-      puesto: "Cuidadora de comedor (prácticas)",
-      lugar: "CEIP Federico Romero",
-      fecha: "Enero 2024",
-      tareas: [
-        "Organización del comedor escolar",
-        "Higiene y salud",
-        "Actividades socio-educativas"
       ]
     },
   ],

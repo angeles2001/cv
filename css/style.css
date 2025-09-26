@@ -1,59 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f5f7;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  h1 {
-    font-size: 2rem;
-    color: #d63384;
-    margin-bottom: 0.5rem;
-  }
-  
-  h2 {
-    font-size: 1.3rem;
-    color: #d63384;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  h3 {
-    margin-bottom: 0.2rem;
-    color: #444;
-  }
-  
-  p {
-    margin: 0.3rem 0;
-  }
-  
-  ul {
-    margin: 0.5rem 0 1rem 1.2rem;
-  }
-  
-  li {
-    margin-bottom: 0.3rem;
-  }
-  .foto-container {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .foto {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #d63384;
-  }
-    
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #610303;
+  color: #665a42;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #c5c3bb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #610303;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #610303;
+  margin: 1rem 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 span {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+h2.active span {
+  transform: rotate(90deg);
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+ul {
+  margin: 0.5rem 0 1rem 1.2rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+.foto-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #610303;
+}
+
+/* Estilo para las secciones desplegables */
+.section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+}
+
+.section-content.open {
+  max-height: 800px; /* suficiente para el contenido */
+  padding-bottom: 0.5rem;
+}

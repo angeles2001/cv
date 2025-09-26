@@ -15,6 +15,16 @@ const cv = {
   ],
   experiencia: [
     {
+      puesto: "Técnica de marketing (prácticas profesionales)",
+      lugar: "J. Delgado",
+      fecha: "Octubre 2024",
+      tareas: [
+        "Plan de marketing",
+        "Estrategias en RRSS",
+        "Creación de contenidos para RRSS"
+      ]
+    },
+    {
       puesto: "Educadora Infantil (prácticas profesionales)",
       lugar: "Escuela infantil Hermanas Barrera",
       fecha: "Marzo 2022 - Junio 2022",
@@ -35,16 +45,6 @@ const cv = {
         "Actividades socio-educativas"
       ]
     },
-    {
-      puesto: "Técnica de marketing (prácticas profesionales)",
-      lugar: "J. Delgado",
-      fecha: "Octubre 2024",
-      tareas: [
-        "Plan de marketing",
-        "Estrategias en RRSS",
-        "Creación de contenidos para RRSS"
-      ]
-    }
   ],
   estudios: [
     "Bachillerato de Humanidades | IES Clara Campoamor | 2018 - 2020",
